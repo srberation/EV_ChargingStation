@@ -57,8 +57,4 @@ public class StationController
         return ResponseEntity.ok(updatedStation);
     }
 
-    @GetMapping("FreeStations")
-    public StationResponseBean getAllFreeStations(){
-        return new StationResponseBean();
-    }
 }
